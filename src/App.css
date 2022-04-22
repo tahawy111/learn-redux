@@ -1,3 +1,6 @@
 * {
   font-family: system-ui, sans-serif;
 }
+.flex-1 {
+  flex: 1;
+}
