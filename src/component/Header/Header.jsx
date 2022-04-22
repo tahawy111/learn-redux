@@ -1,6 +1,9 @@
 import React from "react";
+import { useSelector } from "react-redux";
 import "./Header.css";
 const Header = () => {
+  const { name } = useSelector((state) => state.user);
+
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
@@ -22,7 +25,7 @@ const Header = () => {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="li">
-                Hello Amer
+                Hello {name}
               </a>
             </li>
           </ul>
