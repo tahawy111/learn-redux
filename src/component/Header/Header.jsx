@@ -5,7 +5,7 @@ const Header = () => {
     <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
       <div className="container">
         <a className="navbar-brand" href="li">
-          Navbar
+          Amer Tahawy
         </a>
         <button
           className="navbar-toggler"
@@ -22,17 +22,7 @@ const Header = () => {
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
               <a className="nav-link active" aria-current="page" href="li">
-                Home
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="li">
-                Features
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="li">
-                Pricing
+                Hello Amer
               </a>
             </li>
           </ul>
